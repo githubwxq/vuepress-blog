@@ -20,7 +20,12 @@ module.exports = {
         title: '软件资源',
         children: ['/软件资源/a.md' ],
         initialOpenGroupIndex: 1 // 可选的, 默认值是 0
-      }
+      },
+       {
+              title: '软件资源bb',
+              children: ['/软件资源/b.md' ],
+              initialOpenGroupIndex: 1 // 可选的, 默认值是 0
+            }
     ]
   },
 };
